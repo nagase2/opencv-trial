@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 '''
 show the image using matplotlib 
 '''
-img = cv2.imread('Dollar-128.png',cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('images/Dollar-128.png',cv2.IMREAD_GRAYSCALE)
 
 plt.imshow(img, cmap='gray',interpolation='bicubic')
 #plt.xticks([]),plt.yticks([])

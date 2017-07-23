@@ -13,6 +13,10 @@ while(1):
     mask = cv2.inRange(hsv,lower_red,upper_red)
     res = cv2.bitwise_and(frame,frame,mask=mask)
 
+    #drow lines into movie
+    cv2.line(frame, (0, 0), (150, 150), (111, 255, 255), 15)
+    cv2.line(mask, (0, 0), (150, 400), (255, 111, 255), 15)
+
     cv2.imshow('frame', frame)
     cv2.imshow('mask', mask)
     cv2.imshow('res', res)
