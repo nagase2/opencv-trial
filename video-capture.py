@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 '''
-ビデオファイルを読み込み、グレイで表示する散布売る
+ビデオファイルを読み込み、グレイで表示するサンプル
 '''
 cap = cv2.VideoCapture('images/test.MOV')
 
