@@ -4,6 +4,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 face_cascade = cv2.CascadeClassifier('C:/Users/yoshi/PycharmProjects/opencv-trial/xml/haarcascade_frontalface_default.xml')
+#face_cascade = cv2.CascadeClassifier('C:/Users/yoshi/PycharmProjects/opencv-trial/xml/haarcascade_lowerbody.xml')
 eye_cascade =  cv2.CascadeClassifier('C:/Users/yoshi/PycharmProjects/opencv-trial/xml/haarcascade_eye.xml')
 
 #cap=cv2.VideoCaptsure(0)
